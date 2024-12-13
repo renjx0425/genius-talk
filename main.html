@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Albert Einstein</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="content">
+        <header>
+            <h1 id="geniusTalk">GeniusTalk</h1>
+            <nav>
+                <div class="menu-item">
+                    <a href="#" class="section">Faces of Innovation</a>
+                    <ul class="dropdown" id="dropdown1">
+                        <li><a href="main.html">Albert Einstein</a></li>
+                        <li><a href="#">Isaac Newton</a></li>
+                        <li><a href="#">Marie Curie</a></li>
+                        <li><a href="#">Nikola Tesla</a></li>
+                    </ul>
+                </div>
+                <div class="menu-item">
+                    <a href="#" class="section">Legends of the Canvas</a>
+                    <ul class="dropdown" id="dropdown2">
+                        <li><a href="#">Leonardo da Vinci</a></li>
+                        <li><a href="#">Vincent van Gogh</a></li>
+                        <li><a href="#">Pablo Picasso</a></li>
+                        <li><a href="#">Michelangelo</a></li>
+                    </ul>
+                </div>
+                <div class="menu-item">
+                    <a href="#" class="section">Painted Personas</a>
+                    <ul class="dropdown" id="dropdown3">
+                        <li><a href="#">Mona Lisa</a></li>
+                        <li><a href="#">The Starry Night</a></li>
+                        <li><a href="#">Guernica</a></li>
+                        <li><a href="#">The Creation of Adam</a></li>
+                    </ul>
+                </div>
+                <a href="https://github.com/renjx0425/GeniusTalk.git">
+                    <img src="src/github.png" alt="Github" id="github">
+                </a>
+                
+    
+            </nav>
+        </header>
+    
+        <div class="container">
+            <div class="image-section">
+                <img src="src/einstein.jpg" alt="Albert Einstein">
+                <div class="info">
+                    <p><strong>Name:</strong> Albert Einstein</p>
+                    <p><strong>Year:</strong> 1879-1955</p>
+                    <p><strong>Country:</strong> United States</p>
+                </div>
+            </div>
+            <div class="chat-section">
+                <div class="chat-header">
+                    <a href="index.html">
+                        <img src="src/back.png" alt="Back">
+                    </a>
+                    <h2>Albert Einstein</h2>
+                    <button id="finishButton">Finish</button>
+                </div>
+                <div class="chat-messages">
+                    <div class="message bot">
+                        <p>Hi, I am Albert Einstein! What do you want to know from me?</p>
+                    </div>
+                    <div class="message user">
+                        <p>What is your most proud achievement in your life?</p>
+                    </div>
+                    <div class="message bot">
+                        <p>My most proud achievement is the theory of relativity. It is a theory that explains the relationship between space and time.</p>
+                    </div>
+                    <div class="audio-section">
+                        <audio id="audioPlayer" controls style="display: none;"></audio>
+                    </div>
+                </div>
+                <div class="hint">
+                    <button>Relativity theory</button>
+                    <button>Achievements</button>
+                    <button>Personal life</button>
+                </div>
+                <div class="input-section">
+                    <input type="text" id="userInput" placeholder="Type your message here...">
+                    <button onclick="sendMessage()">Send</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <div id="overlay" class="overlay"></div>
+
+    <div class="summary hidden">
+        <div class="left">
+            <img src="src/einstein.jpg" alt="Albert Einstein">
+            <p><span style="font-size: 2vw; font-weight: bold;">"</span>Imagination is more important than knowledge. For knowledge is limited, whereas imagination embraces the entire world, stimulating progress, giving birth to evolution."</p>
+            <p id="signature"> - Albert Einstein</p>
+        </div>
+
+        <div class="right">
+            <h2>Summary</h2>
+            <p>Albert Einstein (1879–1955) was a German-born theoretical physicist widely regarded as one of the most influential scientists of the 20th century. He is best known for developing the theory of relativity, particularly the equation E=mc², which describes the equivalence of energy and mass.</p>
+            <p>Einstein's groundbreaking work reshaped our understanding of time, space, gravity, and the universe. In 1921, he was awarded the Nobel Prize in Physics for his explanation of the photoelectric effect, which was pivotal in establishing quantum theory.</p>
+            <div class="buttons">
+                <img src="src/download.png" alt="Download">
+                <img src="src/share.png" alt="Share">
+                <button id="continueButton">Continue</button>
+                
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+    
+
+</body>
+</html>
