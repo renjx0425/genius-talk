@@ -1,5 +1,3 @@
-
-
 body {
     font-family: 'Courier New', Courier, monospace;
     margin: 0;
@@ -20,6 +18,14 @@ header {
 }
 
 #geniusTalk {
+    height: 8vh;
+    width: auto;
+    position: relative;
+    margin-left: 3vw;
+}
+
+
+#geniusTalk {
     cursor: pointer;
 }
 
@@ -35,7 +41,7 @@ header nav {
     align-items: center;
     justify-content: flex-start; 
     position: relative;
-    margin-left: 30vw;
+    margin-left: auto;
 }
 
 header nav a {
@@ -99,7 +105,7 @@ ul.dropdown li a:hover {
 nav img {
     width: 4vh;
     height: auto;
-    margin-left: 3vw;
+    margin-right: 3vw;
 }
 
 .container {
@@ -361,7 +367,7 @@ h2 {
     display: flex;
     justify-content: start;
     width: 100%;
-    margin-top: 10vh;
+    margin-top: 5vh;
     cursor: pointer;
 }
 
