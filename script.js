@@ -33,6 +33,10 @@ document.getElementById('continueButton').addEventListener('click', function() {
     window.location.href = 'index.html';
 });
 
+document.getElementById('chatButton').addEventListener('click', function() {
+    window.location.href = 'main.html';
+});
+
 async function sendMessage() {
     const userInput = document.getElementById('userInput');
     const chatMessages = document.querySelector('.chat-messages');
