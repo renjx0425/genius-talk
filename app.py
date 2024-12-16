@@ -8,10 +8,10 @@ app = Flask(__name__)
 CORS(app, resources={r"/*": {"origins": "*"}})
 
 # Add your OpenAI API key
-openai.api_key = "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"
+openai.api_key = "YOUR_OPENAI_API_KEY"
 
 # Add your Murf API key
-MURF_API_KEY = "ap2_e878f285-c687-495f-bf43-dd23c322fa7e"
+MURF_API_KEY = "YOUR_MURF_API_KEY"
 
 # Function to generate audio from Murf API
 def generate_audio_from_text(reply_text):
