@@ -73,6 +73,8 @@ GeniusTalk/
 │── style.css          # Frontend styles
 ```
 
+![Workflow Diagram](src/workflow.png)
+
 ## ❗ **Troubleshooting**  
 
 🔹 Ensure your API keys are correctly configured.  
